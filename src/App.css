@@ -1,0 +1,61 @@
+body {
+  display: flex;
+
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  min-height: calc(100vh - 315.59px);
+}
+
+.Badge-count {
+  display: flex;
+}
+
+.Badge-count a {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.Badge-count span {
+  padding: 0;
+  /* min-width: 3rem; */
+  padding: 0px 0px;
+  margin-left: 0px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 35px;
+  height: 22px;
+  color: #ffe627;
+  float: right;
+}
+
+.Badge-count span.badge {
+  min-width: 0;
+  font-weight: 800;
+}
+.Badge-count i {
+  padding: 0 0 0 0;
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.travel-essential img {
+  /* background-image: "https://cdn.packhacker.com/2019/04/earth-friendly-sustainable-packing-list-hero.jpg"; */
+  max-width: 100vh;
+  max-height: 100%;
+}
+
+.home {
+  background-color: rgba(245, 214, 38, 0.946);
+}
+.home p {
+  background-color: rgba(223, 222, 235, 0.227);
+  /* margin: 15px; */
+  /* padding: 10px; */
+}
